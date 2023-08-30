@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Dashboard</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Assistant&family=Carter+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./Assets/Style.css">
+</head>
+
+<body>
+    <header>
+        <h1>Weather Dashboard</h1>
+    </header>
+    <main class="container">
+        <div class="row">
+
+            <div class="search-section col-12 col-lg-3">
+                <h2>Search for a City</h2>
+                <input type="text" class="form-control" id="formGroupExampleInput2"
+                    placeholder="Type city name here...">
+                <button type="submit" class="btn btn-secondary mt-3">Search</button>
+                <div class="search-history mt-3">
+                </div>
+            </div>
+
+            <div class="weather-display-section col-12 col-lg-9">
+                <div class="current-weather-section row mb-3">
+                    <h2>City Name</h2>
+                    <div class="date-display col-12 col-md-6"></div>
+                    <div class="icon-display col-12 col-md-6"></div>
+                    <p class="temp-display col-6 col-md-4">Temp:</p>
+                    <p class="wind-display col-6 col-md-4">Wind:</p>
+                    <p class="humidity-display col-6 col-md-4">Humidity:</p>
+                </div>
+                <div class="future-weather-section row">
+                    <h3 class="col-12">5-Day Forecast</h3>
+                    <div class="future-weather-display col-12">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/dayjs@1.11.3/dayjs.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+        crossorigin="anonymous"></script>
+    <script src="./Assets/Script.js"></script>
+</body>
+
+</html>

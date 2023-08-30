@@ -1,0 +1,50 @@
+body {
+    font-family: 'Assistant', sans-serif;
+}
+
+header {
+    background-color: #225ca3;
+    color: white;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+.search-section, .weather-display-section {
+    margin-top: 1rem;
+    border: 1px solid #ddd;
+    padding: 1rem;
+    border-radius: 5px;
+}
+
+.search-section h2, .weather-display-section h2, h3 {
+    margin-bottom: 1rem;
+}
+
+.form-control {
+    width: 100%;
+}
+
+.btn-secondary {
+    background-color: #225ca3;
+    border-color: #225ca3;
+}
+
+.btn-secondary:hover {
+    background-color: #1d4e8a;
+    border-color: #1d4e8a;
+}
+
+.current-weather-section, .future-weather-section {
+    border: 1px solid #ddd;
+    margin-top: 1rem;
+    padding: 1rem;
+    border-radius: 5px;
+}
+
+.current-weather-section h2, .future-weather-section h3 {
+    margin-bottom: 0.5rem;
+}
+
+.date-display, .icon-display, .temp-display, .wind-display, .humidity-display {
+    margin-bottom: 0.5rem;
+}
